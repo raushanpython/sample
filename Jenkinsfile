@@ -6,7 +6,7 @@ node {
       }
       
       stage('Build image'){
-      app = docker.build("raushanpython/tutorials")
+      app = docker.build("raushanpython/sample")
       }
 
       stage('Test image') {
